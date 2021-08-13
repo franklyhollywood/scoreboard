@@ -22,8 +22,8 @@ pigeonsButton.addEventListener('click', () => {
 });
 
 reset.addEventListener('click', () => {
-	counter2 === 0;
-	counter1 === 0;
+	counter2 = 0;
+	counter1 = 0;
 	score2El.textContent = counter2;
 	score1El.textContent = counter1;
 });
